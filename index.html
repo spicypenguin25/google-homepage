@@ -1,53 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
-    <title>Google-Homepage</title>
-</head>
-<body>
-    <nav class="navbar">
-            <a style="float: left" class="nav-link" href="#about">About</a>
-            <a style="float: left" class="nav-link" href="#store">Store</a>
-            <button style="float: right" class="sign-in-btn">Sign in</button>
-            <a style="float: right" class="nav-link" href="#"><img class="apps-icon" src="img/apps-icon.svg" alt="apps-icon"/></a>
-            <a style="float: right" class="nav-link" href="#images">Images</a>
-            <a style="float: right" class="nav-link" href="#gmail">Gmail</a>
-
-    </nav>
-
-    <div id="main">
-        <div id="logo">
-        <img class="logo" src="img/googlelogo.png" alt="google-logo" />
-        </div>
-
-        <div class="search-box">
-            <div class="search-bar">
-                        <i class="glyphicon glyphicon-search"></i>
-                        <input type="text" class="search">
-
-            </div>
-        </div>
-            <div id="search-btn">
-                <button class="search-btn">Google Search</button>
-                <button class="random-btn">I'm Feeling Lucky</button>
-                <div class="note">
-                    <a>To those on the front lines of help, thank you</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="https://www.google.com/favicon.ico">
+        <title>Google</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav id="links">
+                <a class="link" href="#">Gmail</a>
+                <a class="link" href="#">Images</a>
+                <a id="apps" href="#"></a>
+                <a id="sign-in" href="#">Sign In</a>
+            </nav>
+        </header>
+        <main>
+            <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google">
+            <form action="#">
+                <div id="search">
+                    <div id="mag"></div>
+                    <input type="search">
+                    <div id="voice"></div>
                 </div>
+                <div id="btn">
+                    <button>Google Serach</button>
+                    <button>I'm Feeling Lucky</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <div id="business">
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">About</a>
+                <a href="#">How Search Works</a>
             </div>
-    </div>
-
-    <footer id="footer">
-            <a style="float: left" class="footer-nav">Advertising</a>
-            <a style="float: left" class="footer-nav">Business</a>
-            <a style="float: left" class="footer-nav">How Search works</a>
-            <a style="float: right" class="footer-nav">Privacy</a>
-            <a style="float: right" class="footer-nav">Terms</a>
-            <a style="float: right" class="footer-nav">Settings</a>
-    </footer>
-</body>
+            <div id="settings">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>
+        </footer>
+    </body>
 </html>
