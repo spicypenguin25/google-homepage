@@ -33,7 +33,7 @@ header {
     background-color: rgba(0, 0, 0, 0.55);
     align-self: center;
     margin-right: 22px;
-    background-image: url("apps.png");
+    background-image: url("img/apps.png");
 }
 
 #apps:hover {
